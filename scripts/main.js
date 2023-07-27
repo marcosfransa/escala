@@ -6,7 +6,7 @@ let nav = 0
 let events = []
 
 
-$.getJSON("https://marcosfransa.github.io/dial/codigos/Bookmarks", function(obj) {
+$.getJSON("https://marcosfransa.github.io/escala/scripts/escala.json", function(obj) {
 	/*var loc = location.search.substring(1,location.search.length);
 	var params = loc.split("&");
 	var param1 = params[0].substring(params[0].indexOf('='),params[0].length);
